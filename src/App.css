@@ -62,3 +62,8 @@ nav.navbar-blue{
 .User{
   margin-right: 10px;
 }
+
+#carouselExampleIndicators{
+  height: 400px;
+  width: 100%;
+}

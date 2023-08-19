@@ -28,7 +28,6 @@ export default function Navbar(props) {
           </div>
           <button type="button" class="btn btn-light">Login</button>
           </div>
-         
         </div>
       </nav>
     </div>
