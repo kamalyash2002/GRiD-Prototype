@@ -41,7 +41,7 @@ nav.navbar-blue{
   padding: 0px;
   color: white;
 }
-.container-fluid{
+.navbar-blue-blue{
   background-color: rgb(71, 86, 255);
   color: white;
 }
@@ -83,4 +83,14 @@ nav.navbar-blue{
 .carousel {
   width:640px;
   height:360px;
+}
+
+.details {
+  margin-top: 30px;
+}
+.user-actions{
+  margin-top: 30px;
+}
+.user-details{
+  margin-bottom: 30px;
 }

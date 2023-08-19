@@ -4,7 +4,7 @@ export default function Navbar(props) {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-blue">
-        <div className="container-fluid">
+        <div className="container-fluid navbar-blue-blue">
           <a className="navbar-brand" href="/">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Emblem.png" alt = "Yash" style={{ width: '100px', height:'55px' }} />
           </a>
