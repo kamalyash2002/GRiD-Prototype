@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+nav.navbar-blue{
+  padding: 0px;
+  color: white;
+}
+.container-fluid{
+  background-color: rgb(71, 86, 255);
+  color: white;
+}
+.navbar-blue .navbar-nav .nav-link {
+  color: white; /* Change the font color for links */
+}
+
+.navbar-blue .navbar-nav .nav-link:hover {
+  color: lightgray; /* Change the font color for links on hover */
+}
+
+.navbar-blue .navbar-brand {
+  color: white; /* Change the font color for the brand */
+}
+.fa-solid{
+  margin-right: 10px;
+}
+.User{
+  margin-right: 10px;
 }
