@@ -63,7 +63,8 @@ nav.navbar-blue{
   margin-right: 10px;
 }
 
-#carouselExampleIndicators{
-  height: 400px;
-  width: 100%;
+
+.carousel {
+  width:640px;
+  height:360px;
 }
