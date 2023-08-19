@@ -63,6 +63,20 @@ nav.navbar-blue{
   margin-right: 10px;
 }
 
+.reward-container {
+  margin-bottom: 20px; /* Adds spacing between the text and the button */
+}
+
+
+
+.main-div{
+
+left: 50%;
+
+
+}
+
+
 
 .carousel {
   width:640px;

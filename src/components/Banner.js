@@ -27,7 +27,7 @@ export default function Banner() {
           />
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item active">
+          <div className="carousel-item active img-carosel">
             <img src="https://bitcoinist.com/wp-content/uploads/2020/08/Exchange-Referral-Program_static_Static.png" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
@@ -59,3 +59,25 @@ export default function Banner() {
     </div>
   );
 }
+
+
+
+
+
+// import React from "react";
+
+// export default function Banner() {
+//   return (
+//     <div>
+
+
+//     <div>Exciting Rewards for you <button type="button" class="btn btn-primary">View Claimed Rewards</button></div>
+
+
+
+
+
+
+//     </div>
+//   );
+// }
