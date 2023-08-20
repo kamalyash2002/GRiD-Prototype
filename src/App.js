@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar title="Flipkart" />
       <div className="main-div container-fluid">
-        <Banner />
+        {/* <Banner /> */}
         <Details/>
         <Brandst />
        

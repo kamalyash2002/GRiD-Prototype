@@ -67,6 +67,18 @@ nav.navbar-blue{
   margin-bottom: 20px; /* Adds spacing between the text and the button */
 }
 
+.gold-icon
+{
+  color: gold;
+  font-size: 2em;
+  
+}
+
+.brown-wallet
+{
+  color: burlywood;
+  font-size:2em;
+}
 
 
 .main-div{
