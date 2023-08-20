@@ -8,6 +8,7 @@ export default function Brandst() {
 
 
 <div class="container text-center">
+  <h2 style={{paddingTop : 50, paddingBottom :50}}>Offer that You can Avail</h2>
   <div class="row">
     <div class="col">
     <div class="card h-100" >
