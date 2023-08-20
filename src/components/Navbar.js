@@ -24,9 +24,9 @@ export default function Navbar(props) {
             </ul>
             <i className="fa-solid fa-user"></i>
           <div className="User">
-            Hi User
+            Yash
           </div>
-          <button type="button" class="btn btn-light">Login</button>
+          <button type="button" class="btn btn-light">Logout</button>
           </div>
         </div>
       </nav>
