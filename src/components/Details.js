@@ -4,19 +4,23 @@ export default function Details() {
   return (
     <div className="details">
       <div className="row">
-        <div className="col-12 col-sm-12 d-flex justify-content-center">
+        <div className="col-6 col-sm-6 d-flex justify-content-center">
           <ul className="list-group">
             <li className="list-group-item active" aria-current="true">
-              <i className="fa-solid fa-coins gold-icon"></i> Tokens Balance
+              <i className="fa-solid fa-coins gold-icon"></i> Token Balance
             </li>
             <li className="list-group-item">1000</li>
+            </ul>
+            </div>
 
-            <div className="w-100 d-none d-md-block" style={{marginTop:50}} />
+
+            <div className="col-6 col-sm-6 d-flex justify-content-center">
+            <ul className="list-group">
             <li className="list-group-item active" aria-current="true">
               <i className="fa-solid fa-wallet brown-wallet"></i>Public Wallet Address
             </li>
             <li className="list-group-item">HBDFG2672VGG33433TVHVH23F34</li>
-          </ul>
+            </ul>
         </div>
         {/* Force next columns to break to new line at md breakpoint and up */}
         <div className="w-100 d-none d-md-block" style={{marginTop:50}} />

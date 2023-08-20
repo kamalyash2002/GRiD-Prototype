@@ -11,7 +11,7 @@ export default function Brandst() {
   <h2 style={{paddingTop : 50, paddingBottom :50}}>Offer that You can Avail</h2>
   <div class="row">
     <div class="col">
-    <div class="card h-100" >
+    <div class="card" >
      <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png" class="card-img-top"  />
     <div class="card-body">
     <h5 class="card-title">Get 10% off on Swiggy</h5>
@@ -21,7 +21,7 @@ export default function Brandst() {
     </div>
     </div>
     <div class="col">
-    <div class="card h-100" >
+    <div class="card h-50" >
      <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Adidas_logo.png" class="card-img-top"  />
     <div class="card-body">
     <h5 class="card-title">Get 15% off on Adidas</h5>
@@ -31,7 +31,7 @@ export default function Brandst() {
     </div>
     </div>
     <div class="col">
-    <div class="card h-100" >
+    <div class="card h-50" >
      <img src="https://purepng.com/public/uploads/large/purepng.com-mcdonalds-logologobrand-logoiconslogos-25151994043391qrj.png" class="card-img-top"  />
     <div class="card-body">
     <h5 class="card-title">Get 10% off on McDonalds</h5>
