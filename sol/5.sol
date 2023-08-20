@@ -108,4 +108,36 @@ contract flipToken
     {
         return allowed[owner][delegate];
     }
+
+    // function to burn the tokens from msg.sender
+    function burn(uint amount) external returns (bool)
+    {
+        require(amount <= balances[msg.sender], "not enough coins to burn");
+
+        balances[msg.sender] -= amount; // 
+
+        _totalSupply -= amount; // total supply se bhi hatana hoga
+
+        emit Transfer(msg.sender, address(0), amount); // send to NULL address
+
+        return true;
+    }
+
+    // function to burn amount from owner,
+    // msg.sender burns amount from owner
+    // so msg.sender pays gas fees
+    function burnFrom(address owner, uint amount) external returns (bool)
+    {
+        require(owner != address(0), "invalid owner account");
+        require(amount <= balances[owner], "not enough coins to burn");
+        require(amount <= allowed[owner][msg.sender], "not enough allowance to burn");
+
+        balances[owner] -= amount;
+        _totalSupply -= amount;
+        allowed[owner][msg.sender] -= amount; // burning = spending
+
+        emit Transfer(owner, address(0), amount); // send to NULL address
+
+        return true;
+    }
 }
