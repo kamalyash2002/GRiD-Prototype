@@ -21,7 +21,9 @@ export default function Details() {
             </li>
             <li className="list-group-item">HBDFG2672VGG33433TVHVH23F34</li>
             </ul>
-        </div>
+          </div>
+
+          </div>
         {/* Force next columns to break to new line at md breakpoint and up */}
         <div className="w-100 d-none d-md-block" style={{marginTop:50}} />
 
@@ -39,7 +41,7 @@ export default function Details() {
             </div>
           </div>
         </div> */}
-
+<div className="row">
 <div className="col-4 col-sm-4 d-flex justify-content-center">
         <div className="card" style={{ width: "18rem" }}>
           <div style={{ position: "relative", paddingBottom: "70%" }}>
