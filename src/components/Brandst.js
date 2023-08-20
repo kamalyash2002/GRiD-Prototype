@@ -23,7 +23,7 @@ export default function Brandst() {
                 <p className="card-text">Place an order of ₹100/- or more  and get ₹50 off on the total order value.</p>
               </div>
               <a href="/" className="btn btn-primary">
-                Redeem for 200 <i className="fa-solid fa-coins"></i>
+                Pay with 200 <i className="fa-solid fa-coins"></i>
               </a>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Brandst() {
                 </p>
               </div>
               <a href="/" className="btn btn-primary">
-              Redeem for 800 <i className="fa-solid fa-coins"></i>
+              Pay with 800 <i className="fa-solid fa-coins"></i>
               </a>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function Brandst() {
                 <p className="card-text">Get flat ₹100 off at McDonalds store.</p>
               </div>
               <a href="/" className="btn btn-primary">
-              Redeem for 400 <i className="fa-solid fa-coins"></i>
+              Pay with 400 <i className="fa-solid fa-coins"></i>
               </a>
             </div>
           </div>

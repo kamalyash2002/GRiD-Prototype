@@ -11,9 +11,9 @@ function App() {
       <div className="main-div container-fluid">
         {/* <Banner /> */}
 
-        <Details/>
-        <Brandst />
-        {/* <Vendor /> */}
+        {/* <Details/>
+        <Brandst /> */}
+        <Vendor />
        
       </div>
     </>
